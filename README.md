@@ -54,7 +54,7 @@ $$
 a_0,a_1,a_2,\ldots = 1,7,29,119,477,1911,7645,30583,\ldots
 $$
 
-with generating function
+with generating function[^1]
 
 $$
 F(x)=\sum_{t\ge0} a_t x^t=\frac{1+3x}{(1-x^2)(1-4x)}.
@@ -120,3 +120,5 @@ function next_rule190(row):           # Row: length W, values 0/1
 [Wikipedia](https://en.wikipedia.org/wiki/Elementary_cellular_automaton)
 
 [MathWorld](https://mathworld.wolfram.com/Rule190.html)
+
+[^1]: Applies to the non-wrapping case, with a torus it matches only until wrap-around, after which the values are different.
